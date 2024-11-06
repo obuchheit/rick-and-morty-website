@@ -1,0 +1,12 @@
+.text-container{
+    color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    padding: 5vmin;
+    font-size: 2em;
+}
+
+h1{
+    margin-bottom: 3vmin;
+}
+

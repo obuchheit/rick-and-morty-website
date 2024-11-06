@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(217deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .2) 70.71%),
+            linear-gradient(127deg, rgba(101, 10, 109, 1), rgba(0, 0, 0, .2) 70.71%),
+            linear-gradient(336deg, rgba(8, 8, 168, 1), rgba(0, 0, 0, .2) 70.71%);
+}
+
+.navbar{
+    color: lawngreen;
+}
+
+.home-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: lawngreen;
+    margin: 10vmin 5vmin;
+}
+
+h1{
+    font-size: 20vw;
+}
+
+.home-text-div {
+    margin-top: 5vmin;
+    font-weight: 700;
+}
+
+.home-text-div{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.nav-hint{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 5vmin;
+}

@@ -1,0 +1,15 @@
+.navbar{
+    background-color: gray !important;
+    color: lawngreen !important;
+}
+
+.navbar .nav-link {
+    color: lawngreen;
+}
+
+.navbar .navbar-brand{
+    color: lawngreen;
+    font-weight: 700;
+    margin-right: 3vmin;
+}
+
