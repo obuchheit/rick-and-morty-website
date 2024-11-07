@@ -1,0 +1,16 @@
+.chars-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vmin;
+}
+
+.button { 
+    background-color: red;
+}
+
+h2{
+    color: lawngreen;
+    font-size: 5em;
+}

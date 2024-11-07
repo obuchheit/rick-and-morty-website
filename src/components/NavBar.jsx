@@ -16,15 +16,10 @@ function MyNavBar() {
             <Nav.Link as={Link} to="/" >Home</Nav.Link>
             <Nav.Link as={Link} to="/about" >About</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/characters">Characters</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/characters1">
-                Characters Page 1
+                Characters
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/favorites">Favorite Characters</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

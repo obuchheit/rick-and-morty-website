@@ -62,7 +62,7 @@ const CharacterCarousel1 = ({favorites, setFavorites}) => {
                                 See More
                                 </Button>
                                 <Button 
-                                className='card-buttons' 
+                                className='card-buttons add-favs' 
                                 variant='warning' 
                                 onClick={() => setFavorites([...favorites, character])}
                                 >

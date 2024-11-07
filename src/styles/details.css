@@ -1,0 +1,40 @@
+.navbar {
+    height: 5vmin;
+}
+
+body{
+    position: relative;
+}
+
+.container {
+    width: 20rem;
+    height: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    background-color: gray;
+    color: white;
+}
+
+.group{
+    background-color: gray;
+    color: white;
+}
+
+.return-button {
+    background-color: gray;
+    color: lawngreen;
+    font-weight: 700;
+    border: lawngreen;
+}
+
+.return-button:hover {
+    background-color: lawngreen;
+    color: gray;
+    font-weight: 700;
+    border: none;
+}

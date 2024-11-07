@@ -56,8 +56,26 @@ h1{
 
 .see-more {
     margin-bottom: 0.3vmin;
+    background-color: purple;
+    color: white;
+    border: none;
 }
 
+.see-more:hover {
+    background-color: black;
+    color: white;
+}
+
+.add-favs {
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+
+.add-favs:hover {
+    background-color: black;
+    color: white;
+}
 .pagination {
     color: lawngreen;
     display: flex;
@@ -84,4 +102,14 @@ h1{
     color: gray;
     font-weight: bold;
     border: solid gray 2px;
+}
+
+.ctrl-buttons:disabled {
+    background-color: gray;
+    border: lawngreen solid 2px;
+    height: 5rem;
+    width: 10rem;
+    color: lawngreen;
+    font-weight: bold;
+    opacity: 0.5;
 }
